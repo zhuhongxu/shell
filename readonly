@@ -1,0 +1,4 @@
+#!/bin/bash
+myname="zhuhongxu"
+readonly myname
+myname="hassan"

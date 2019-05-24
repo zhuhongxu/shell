@@ -1,0 +1,3 @@
+#!/bin/bash
+array_name=("zhuhongxu" "jinyiqiang" "yumingsheng" "luchangshun")
+echo ${array_name[2]}

@@ -1,0 +1,38 @@
+#!/bin/bash
+echo "没有返回值的函数："
+study(){
+  echo "我在学习呢！！"
+}
+echo "调用开始，"
+study
+echo "调用结束，默认的返回值是最后一行的返回值：$?"
+echo "haha,woshifengefu..............."
+
+echo "又返回值的函数："
+chat(){
+ echo "这个函数会对用户输入的两个数字执行相加计算"
+ echo "请输入第一个数字："
+ read var2
+ echo "请输入第二个数字："
+ read var3
+ var4=`expr ${var2} + ${var3}`
+ echo "结果是：${var4}"
+ return ${var4}
+}
+echo "开始调用，"
+chat
+echo "调用结束，返回值是：$?"
+echo "haha,woshifengefu..............."
+
+echo "有参数的函数"
+chiji(){
+  echo "测试有参数的函数"
+  echo "第一个参数是：$1"
+  echo "第二个参数是：$2"
+  echo "第三个参数是：$3"
+}
+echo "开始调用，"
+chiji 1 98 78
+echo "调用结束，返回值是：$?"
+echo "haha,woshifengefu..............."
+

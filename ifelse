@@ -1,0 +1,6 @@
+#!/bin/bash
+if(true)
+then echo 'if'
+else
+     echo 'else'
+fi

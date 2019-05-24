@@ -1,0 +1,6 @@
+#!/bin/bash
+# 定义一个变量
+name="zhuhongxu"
+echo "name lenth: "${#name}
+array_name=("hasan" "harold" "dramond")
+echo "array_name lenth: "${#array_name[*]}

@@ -1,0 +1,5 @@
+#!/bin/bash
+if(true)
+then echo 'true'
+fi
+if(true); then echo 'true2'; fi

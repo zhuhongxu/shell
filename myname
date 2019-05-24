@@ -1,0 +1,3 @@
+#!/bin/bash
+myname="zhuhongxu"
+echo $myname

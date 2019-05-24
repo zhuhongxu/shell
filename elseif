@@ -1,0 +1,8 @@
+#!/bin/bash
+if(false)
+then echo 'if'
+elif(true)
+then echo 'else if'
+else
+     echo 'else'
+fi
